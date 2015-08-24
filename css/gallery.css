@@ -1,5 +1,47 @@
+body,
 html{
+	width:100%;
+	height: 100%;
+	margin: 0px;
+	background-color: #f6f6f6;
 
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+	color:#000000;
+}
+
+.nav-bar{
+	background-color: rgb(251,250,250);
+	content: inline;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.top-nav-link{
+	width:45%;
+	height: 3%;
+	padding-top:5px;
+	background-color: #FBFAFA;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	float:top;
+
+}
+
+.top-nav-logo{
+	text-align: center;
 }
 
 @media(max-width: 767px){
