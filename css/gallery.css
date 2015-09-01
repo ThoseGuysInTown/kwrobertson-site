@@ -48,10 +48,24 @@ a{
 }
 
 .top-nav-logo{
+	width:110px;
+	height: 110px;
 	text-align: center;
 }
 
-.shirt{
+@media(max-width: 767px){
+	.top-nav-logo{
+		width:64px;
+		height:64px;
+	}
+
+	.top-nav-link{
+		height: 32px;
+		padding-right: 14px;
+		padding-left: 14px;
+	}
+}
+.art{
 	width: 350px;
 	height: 450px;
 	margin: 40px;
@@ -61,7 +75,7 @@ a{
 }
 
 @media(max-width: 767px){
-	.shirt{
+	.art{
 		width: ;
 	}
 }
