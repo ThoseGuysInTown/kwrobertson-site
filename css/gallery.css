@@ -50,6 +50,21 @@ a{
 	text-align: center;
 }
 
+.shirt{
+	width: 350px;
+	height: 450px;
+	margin: 40px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+
+}
+
+@media(max-width: 767px){
+	.shirt{
+		width: ;
+	}
+}
+
 @media(max-width: 767px){
 	
 }
