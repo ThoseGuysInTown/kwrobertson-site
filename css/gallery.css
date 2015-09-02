@@ -54,7 +54,7 @@ a{
 	float:top;
 }
 
-@media(min-width: 300px; max-width: 600px;){
+@media screen and (max-width: 600px;){
 	.top-nav-logo{
 		width:64px;
 		height:64px;
@@ -72,6 +72,7 @@ a{
 	width: 350px;
 	height: 450px;
 	margin: 40px;
+	display: inline;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 	border-right: 1px solid rgba(0,0,0,0.2);
 
