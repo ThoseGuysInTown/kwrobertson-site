@@ -29,7 +29,8 @@ a{
 	position: fixed;
 	top: 0;
 	margin-top: 0px; 
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin-bottom: 55px;
+	border-bottom: 1px solid rgba(0,0,0,1);
 }
 
 .nav-bar{
@@ -68,13 +69,56 @@ a{
 	}
 }
 
-.art{
-	width: 350px;
-	height: 450px;
-	margin: 40px;
-	display: inline;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
-	border-right: 1px solid rgba(0,0,0,0.2);
+.gallery{
+	width: 100%;
+	margin-top: 150px;
+	content: inline;
+}
+
+.divider{
+	width:100%;
+	content:inline;
 
 }
+
+.divider hr{
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgba(0,0,0,1);
+}
+
+.divider h3{
+	text-align: center;
+}
+
+.art{
+	width: auto;
+	height: auto;
+	float: center;
+	text-align: center;
+	margin: 40px;
+	content: inline;
+    margin-bottom: 40px;
+    background: #fafafa;
+    overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0,0,0,0.1);
+
+}
+
+.art img{
+	display: inline;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
 
