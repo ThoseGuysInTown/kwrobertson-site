@@ -95,7 +95,7 @@ a{
 .art{
 	width: auto;
 	height: auto;
-	float: center;
+	float: left;
 	text-align: center;
 	margin: 40px;
 	content: inline;
