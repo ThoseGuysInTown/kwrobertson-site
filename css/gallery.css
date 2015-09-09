@@ -44,7 +44,12 @@ a{
 	padding-left: 28px;
 	padding-right: 28px;
 	float:top;
+	text-shadow: 1px 1px 1px gray;
+	transition: text-shadow 0.5s ease-in-out;
+}
 
+.top-nav-link:hover {
+	text-shadow:2px 2px 6px gray;
 }
 
 .top-nav-logo{
