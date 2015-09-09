@@ -55,7 +55,7 @@ a{
 	float:top;
 }
 
-@media screen and (max-width: 600px;){
+@media(min-height: 600px;){
 	.top-nav-logo{
 		width:64px;
 		height:64px;
@@ -117,7 +117,11 @@ a{
 
 .about{
 	width:100%;
+	text-align: center;
+}
 
+.about p{
+	text-align: center;
 }
 
 .about-banner{
