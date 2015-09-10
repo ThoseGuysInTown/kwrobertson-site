@@ -116,6 +116,7 @@ a{
 }
 
 .art img{
+	height:400px;
 	display: inline;
     margin: 5px;
 }
