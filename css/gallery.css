@@ -136,6 +136,7 @@ a{
 .social{
 	content: inline;
 	text-align: center;
+	list-style-type: none;
 }
 
 
